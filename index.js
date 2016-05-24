@@ -3,7 +3,7 @@
 module.exports = CSSselect;
 
 var Pseudos       = require("./lib/pseudos.js"),
-    DomUtils      = require("domutils"),
+    DomUtils      = require("@gema/domutils"),
     findOne       = DomUtils.findOne,
     findAll       = DomUtils.findAll,
     getChildren   = DomUtils.getChildren,
