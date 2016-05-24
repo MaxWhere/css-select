@@ -27,7 +27,8 @@ module.exports = {
 	},
 	findOne: function findOne(test, arr){
 		var elem = null;
-
+		console.log('findone');
+		//console.log(arr);
 		for(var i = 0, l = arr.length; i < l && !elem; i++){
 			if(test(arr[i])){
 				elem = arr[i];
