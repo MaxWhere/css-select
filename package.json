@@ -1,8 +1,8 @@
 {
-  "name": "@gema/css-select",
+  "name": "@mxw/css-select",
   "version": "1.2.0",
   "description": "a CSS selector compiler/engine",
-  "author": "Felix Boehm <me@feedic.com>",
+  "author": "Maxwhere",
   "keywords": [
     "css",
     "selector",
@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "css-what": "2.1",
-    "@gema/domutils": "1.5.1",
+    "@mxw/domutils": "1.5.1",
     "boolbase": "~1.0.0",
     "nth-check": "~1.0.1"
   },
@@ -38,7 +38,7 @@
     "lcov": "istanbul cover _mocha --report lcovonly -- -R spec",
     "coveralls": "npm run lint && npm run lcov && (cat coverage/lcov.info | coveralls || exit 0)"
   },
-  "license": "BSD-like",
+  "license": "SEE LICENSE IN <LICENSE>",
   "jshintConfig": {
     "eqeqeq": true,
     "freeze": true,
