@@ -1,6 +1,6 @@
 {
   "name": "@mxw/css-select",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "a CSS selector compiler/engine",
   "author": "Maxwhere",
   "keywords": [
